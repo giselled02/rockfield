@@ -1,3 +1,6 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Playfair+Display:ital,wght@0,500;1,500&display=swap');
+
 /* Asterick wildcard selector to override default styles added by the browser */
 * {
     padding: 0;
@@ -12,6 +15,7 @@ body {
     flex-direction: column;
     /* Generic project styles */
     color: #3a3a3a;
+    font-family: 'EB Garamond', sans-serif;
 }
 
 /* Header */
@@ -30,16 +34,25 @@ header a {
 }
 
 h1 {
-    
-    text-transform: uppercase;
+    font-family: 'Playfair Display', sans-serif;
     letter-spacing: 2px;
     color: #252525;
+    margin-bottom: 1rem;
 }
 
 #menu {
     text-transform: uppercase;
     list-style: none;
 }
+
+#menu > li {
+    margin-bottom: 1em;
+}
+
+.stone {
+    border-bottom: 1px solid #3a3a3a;
+}
+
 
 /* Main */
 main {
