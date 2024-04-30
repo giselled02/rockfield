@@ -26,7 +26,7 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
-    display: inline-flex;
+    display: flex;
     justify-content: space-between;
     align-items: baseline;
 }
@@ -40,6 +40,7 @@ h1 {
     font-family: 'Playfair Display', sans-serif;
     letter-spacing: 2px;
     color: #252525;
+    font-size: 1.5rem;
 }
 
 #menu {
@@ -77,15 +78,15 @@ nav {
 }
 
 .nav-toggle-label {
-    font-size: 200%;
+    font-size: 2rem;
 }
 
 /* Main */
 main {
     background-color: lightblue;
-    /* make main element ake up any surplus space to push footer down */
+    /* make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 47px;
+    margin-top: 43px;
 }
 
 /* Footer */
