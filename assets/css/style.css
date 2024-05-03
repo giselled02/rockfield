@@ -20,7 +20,7 @@ body {
 
 /* Header */
 header {
-    background-color: #6f79c4f7;
+    background-color: #517384;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -59,7 +59,7 @@ h1 {
 /* Navbar styles */
 nav {
     position: absolute;
-    background-color: #6f79c4f7;
+    background-color: #517384;
     width: 100%;
     left: 0;
     padding: 5px 1rem;
@@ -88,19 +88,46 @@ nav > ul {
 
 /* Main */
 main {
-    background-color: lightblue;
+    background-color: #ffffff;
     /* make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 33px;
 }
 
-.photos img {
+#hero-image img {
     width: 100%;
+    border-radius: 25px;
+    padding: 8px 5px;
+    z-index: 1;
 }
+
+#basic-info {
+    background-color: #b58d88;
+    border-radius: 25px;
+    padding: 5px 20px;
+    margin-top: -50px;
+    z-index: 2;
+}
+
+#list-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: small;
+    padding: 0;
+    text-align: center;
+}
+
+
+li span {
+    position: relative;
+    left: -10px;
+}
+
 
 /* Footer */
 footer {
-    background-color: orange;
+    background-color: #517384;
 }
 
 /* Media query: large or landscape phones (576px and up) */
