@@ -94,10 +94,13 @@ main {
     margin-top: 33px;
 }
 
+#hero{
+    padding: 8px 5px;
+}
+
 #hero-image img {
     width: 100%;
     border-radius: 25px;
-    padding: 8px 5px;
     z-index: 1;
 }
 
@@ -105,7 +108,6 @@ main {
     background-color: #b58d88;
     border-radius: 25px;
     padding: 5px 20px;
-    margin-top: -50px;
     z-index: 2;
 }
 
@@ -118,10 +120,17 @@ main {
     text-align: center;
 }
 
+li {
+    padding-left: 20px;
+}
 
 li span {
     position: relative;
     left: -10px;
+}
+
+#house-info {
+    padding: 5px 10px;
 }
 
 
