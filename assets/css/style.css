@@ -18,6 +18,10 @@ body {
     font-family: 'Playfair Display', sans-serif;
 }
 
+.hidden {
+    display: none;
+}
+
 /* Header */
 header {
     background-color: #3956b4;
@@ -106,34 +110,33 @@ main {
     background-color: #e99d9de0;
     border-radius: 25px;
     padding: 5px 20px;
-    font-size: 70%;
+    font-size: 50%;
     position: absolute;
     bottom: 10px;
     width: 85%;
     min-height: 25px;
 }
 
-#list-info {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    font-size: 70%;
-    padding: 0;
-}
-
-li {
-    padding-left: 20px;
-}
-
-li span {
-    position: relative;
-    left: -10px;
-}
-
 #house-info {
     padding: 5px 10px;
 }
 
+p {
+    font-size: 70%;
+}
+
+ul {
+    font-size: 70%;
+}
+
+#photos {
+    padding-top: 5px;
+}
+
+#photos img {
+    width: 49%;
+    column-count: 2;
+}
 
 /* Footer */
 footer {
