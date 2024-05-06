@@ -20,12 +20,11 @@ body {
 
 /* Header */
 header {
-    background-color: #517384;
+    background-color: #3956b4;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -59,7 +58,7 @@ h1 {
 /* Navbar styles */
 nav {
     position: absolute;
-    background-color: #517384;
+    background-color: #3956b4;
     width: 100%;
     left: 0;
     padding: 5px 1rem;
@@ -91,33 +90,35 @@ main {
     background-color: #ffffff;
     /* make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 33px;
+    margin-top: 32px;
 }
 
-#hero{
-    padding: 8px 5px;
-}
-
-#hero-image img {
+#hero {
+    background-image: url(../images/front-house.webp);
+    background-size: cover;
+    height: 220px;
     width: 100%;
-    border-radius: 25px;
-    z-index: 1;
+    padding: 8px 5px;
+    position: relative;
 }
 
 #basic-info {
-    background-color: #b58d88;
+    background-color: #e99d9de0;
     border-radius: 25px;
     padding: 5px 20px;
-    z-index: 2;
+    font-size: 70%;
+    position: absolute;
+    bottom: 10px;
+    width: 85%;
+    min-height: 25px;
 }
 
 #list-info {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    font-size: small;
+    font-size: 70%;
     padding: 0;
-    text-align: center;
 }
 
 li {
@@ -136,7 +137,7 @@ li span {
 
 /* Footer */
 footer {
-    background-color: #517384;
+    background-color: #3956b4;
 }
 
 /* Media query: large or landscape phones (576px and up) */
