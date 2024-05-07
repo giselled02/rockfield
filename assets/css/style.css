@@ -100,6 +100,10 @@ main {
     margin-top: 32px;
 }
 
+p {
+    font-size: 70%;
+}
+
 #hero {
     background-image: url(../images/front-house.webp);
     background-size: cover;
@@ -129,18 +133,29 @@ main {
     padding: 5px 10px;
 }
 
-p {
-    font-size: 70%;
-}
-
 #more-info {
+    background-color: #e99d9de0;
     text-align: center;
+    padding: 5px 0;
     width: 100%;
+    display: inline-block;
     column-count: 2;
 }
 
 ul {
     font-size: 70%;
+}
+
+#amenities {
+    padding: 5px 10px;
+}
+
+#bed-bath {
+    text-align: right;
+}
+
+#free-stay {
+    padding: 5px 10px;
 }
 
 .question-comp h4 {
@@ -154,6 +169,10 @@ ul {
 #photos img {
     width: 49%;
     column-count: 2;
+}
+
+#map {
+    padding: 5px 10px;
 }
 
 #map iframe {
