@@ -84,7 +84,6 @@ nav {
 }
 
 .nav-toggle-label {
-    size: 1rem;
     color: #ffffff;
 }
 
@@ -228,11 +227,6 @@ footer {
 
 #photos h3 {
     padding-bottom: 5px;
-}
-
-/* Media query: large or landscape phones (576px and up) */
-@media screen and (min-width: 576px) {
-
 }
 
 /* Media query: tablets and larger (768px and up) */
@@ -403,11 +397,5 @@ footer {
     #broom2 {
         margin-top: 300px;
     }
-
-}
-
-
-/* Media query: desktops screens 1200px and up */
-@media screen and (min-width: 1200px) {
 
 }
