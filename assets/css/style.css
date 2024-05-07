@@ -180,11 +180,11 @@ ul {
     text-transform: none;
 }
 
-#photos {
+#index-photos {
     padding-top: 5px;
 }
 
-#photos img {
+#index-photos img {
     width: 49%;
     column-count: 2;
 }
@@ -327,6 +327,14 @@ footer {
 
     #basic-info {
         bottom: 550px;
+    }
+
+    #amenities {
+        text-align: center;
+    }
+
+    #bed-bath {
+        text-align: center;
     }
 
     #comp-q {
