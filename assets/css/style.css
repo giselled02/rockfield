@@ -141,6 +141,10 @@ ul {
     font-size: 70%;
 }
 
+.question-comp h4 {
+    text-transform: none;
+}
+
 #photos {
     padding-top: 5px;
 }
