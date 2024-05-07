@@ -206,7 +206,7 @@ footer {
 }
 
 #copyright {
-    font-size: 1rem;
+    font-size: 65%;
 }
 
 #social-media {
@@ -217,8 +217,17 @@ footer {
     color: #ffffff;
 }
 
+/* Gallery */
+#photos {
+    padding: 0 5px;
+}
+
 #photos img {
     width: 100%;
+}
+
+#photos h3 {
+    padding-bottom: 5px;
 }
 
 /* Media query: large or landscape phones (576px and up) */
@@ -228,6 +237,10 @@ footer {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+    main {
+        margin-top: 66px;
+    }
+
     nav {
         display: block;
         position: relative;
@@ -304,10 +317,26 @@ footer {
         padding-left: 425px;
     }
 
+    #copyright {
+        font-size: 1rem;
+    }
+
+    #photos {
+        column-count: 2;
+    }
+
+    #lroom2 {
+        margin-top: 100px;
+    }
+
 }
 
 /* Media query: laptops and larger (992px and up) */
 @media screen and (min-width: 992px) {
+    main {
+        margin-top: 68px;
+    }
+
     header {
         box-shadow: 0 2px 2px #3a3a3a;
     }
@@ -357,6 +386,24 @@ footer {
         padding-left: 820px;
         font-size: 30px;
     }
+
+    #copyright {
+        font-size: 1rem;
+    }
+
+    #photos {
+        padding-top: 10px;
+        column-count: 3;
+    }
+
+    #lroom2 {
+        margin-top: 0;
+    }
+    
+    #broom2 {
+        margin-top: 300px;
+    }
+
 }
 
 
