@@ -113,7 +113,7 @@ main {
     font-size: 50%;
     position: absolute;
     bottom: 10px;
-    width: 85%;
+    width: fit-content;
     min-height: 25px;
 }
 
@@ -184,8 +184,25 @@ footer {
 
 /* Media query: laptops and larger (992px and up) */
 @media screen and (min-width: 992px) {
-
+    #hero {
+        background-image: url(../images/laptop\ front\ of\ house.png);
+        background-size: cover;
+        height: 800px;
+        padding: 8px 5px;
+        position: relative;
+    }
+    
+    #basic-info {
+        background-color: #e99d9de0;
+        border-radius: 25px;
+        font-size: 90%;
+        padding: 5px 20px;
+        position: absolute;
+        bottom: 550px;
+        min-height: 25px;
+    }
 }
+
 
 /* Media query: desktops screens 1200px and up */
 @media screen and (min-width: 1200px) {
