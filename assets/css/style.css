@@ -150,6 +150,10 @@ ul {
     padding: 5px 10px;
 }
 
+#amenities h4 {
+    text-decoration: underline;
+}
+
 #bed-bath {
     text-align: right;
 }
@@ -246,12 +250,16 @@ footer {
         font-size: 100%;
     }
 
-    #check-pets {
-        column-count: 2;
-    }
-
     ul {
         font-size: 100%;
+    }
+
+    #cool br {
+        display: none;
+    }
+
+    #rules {
+        padding-top: 8px;
     }
 
     #map iframe {
@@ -292,7 +300,7 @@ footer {
     }
 
     #map iframe {
-        height: 500px;
+        height: 600px;
     }
 
     #copyright {
