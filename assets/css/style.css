@@ -345,7 +345,7 @@ footer {
     }
 
     #hero {
-        background-image: url(../images/laptop\ front\ of\ house.png);
+        background-image: url(../images/laptop-front-of-house.png);
         background-size: cover;
         height: 800px;
         padding: 8px 5px;
@@ -377,7 +377,7 @@ footer {
     }
 
     #social-media {
-        padding-left: 820px;
+        padding-left: 1000px;
         font-size: 30px;
     }
 
