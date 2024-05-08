@@ -31,7 +31,24 @@ I used the font awesome website to find icons that correlated to some amenities 
 The area looked quite elongated when it came to larger laptp screens so I made this section centered so it was easier to read
 
 ### Competition form
-I used my knowledge of form inputs to create a competition form where someone could win a free stay.
+I used my knowledge of different form inputs to create a competition form where someone could win a free stay.
+
+### Map
+I remembered embedding a Google Maps map to the coders coffeehouse in the html lessons so i included a satellite map of the house to my website.
+
+### Footer
+I added a copyright icon and social media icons that just lead to the log in pages of each social medai platform
+
+### Gallery
+The gallery provides various pictures of the house and it's different rooms
+
+## Testing
+
+### Validator Testing 
+
+- No HTML errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/#textarea)
+- No CSS errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/), one warning was issued to do with the imported Google fonts
+
 
 
 ## Deployment
@@ -39,3 +56,15 @@ I used my knowledge of form inputs to create a competition form where someone co
 - In the GitHub repository, navigate to the Settings tab
 - From the source section drop-down menu, select the Master Branch
 - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found here - https://giselled02.github.io/rockfield/
+
+
+## Credits
+
+### Content
+- All house information was taken from the Airbnb page thats live for my house -https://www.airbnb.ie/rooms/1091829813427888523?adults=1&children=0&enable_m3_private_room=true&infants=0&pets=0&check_in=2024-04-02&check_out=2024-04-07&source_impression_id=p3_1712001396_6QC3G1vyWtP%2Fh3N3&previous_page_section_name=1000&federated_search_id=eadae92e-4723-48ca-ade0-c836d5486746
+- The icons in the footer were taken from Font Awesome - https://fontawesome.com/icons
+
+### Media
+All media was also taken from the Airbnb page - https://www.airbnb.ie/rooms/1091829813427888523?adults=1&children=0&enable_m3_private_room=true&infants=0&pets=0&check_in=2024-04-02&check_out=2024-04-07&source_impression_id=p3_1712001396_6QC3G1vyWtP%2Fh3N3&previous_page_section_name=1000&federated_search_id=eadae92e-4723-48ca-ade0-c836d5486746&modal=PHOTO_TOUR_SCROLLABLE
