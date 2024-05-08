@@ -3,19 +3,17 @@
 This website is to promote my family home that is currently up for rent in Kinvara, Galway. This recently renovated house is the perfect countryside getaway.
 Users of his website can find useful informtion about this house including check-in times, amenities and photos. It also links the airbnb page where you an actually rent.
 
-https://github.com/giselled02/rockfield/blob/main/assets/images/am-i-responsive.png
-
 ## Features
 
 ### Navigation
-I took inspiration from the Love Running walkthrough project while adding my own style to it. Shown at the top left page while on phones and tablets/ipads, then centered on latops and larger, is the title of our pge with the navigation menu to the right.
+I took inspiration from the Love Running walkthrough project while adding my own style to it. Shown at the top left page while on phones and tablets/ipads, then underlined on latops and larger, is the title of our pge with the navigation menu to the right.
 In the navigation menu you will find 'home' which will take you to the home index.html page, 'gallery' where you will find photos of the house, then the final link 'book your stay' will bring you to the airbnb webpage where you can rent the house.
 
 ### Hero
 The hero image shows a captivating image of the front of the house and includes basic information about the house; where it is located and how many guests it supports.
 
 ### Intro
-Next is an introduction to the house that paints a picture of what guests culd get up to while stayig here.
+Next is an introduction to the house that paints a picture of what guests could get up to while stayig here.
 
 ### House rules
 I included some useful details that people would like to know while making a decision about whether this would be the right rental for them including information about check in/out times and that the rental is pet friendly.
@@ -44,11 +42,15 @@ The gallery provides various pictures of the house and it's different rooms
 
 ## Testing
 
+- I tested that the website works on Google Chrome and apples Safari
+- I confirmed the project is responsive and function on all screen sizes using the devtools device toolbar
+- I confirmed that the header, main content and footer are readable and easy to understand
+- I confirmed that the form will not be able to be submitted without filling out all the appropriate information
+
 ### Validator Testing 
 
 - No HTML errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/#textarea)
 - No CSS errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/), one warning was issued to do with the imported Google fonts
-
 
 
 ## Deployment
@@ -64,7 +66,10 @@ The live link can be found here - https://giselled02.github.io/rockfield/
 
 ### Content
 - All house information was taken from the Airbnb page thats live for my house -https://www.airbnb.ie/rooms/1091829813427888523?adults=1&children=0&enable_m3_private_room=true&infants=0&pets=0&check_in=2024-04-02&check_out=2024-04-07&source_impression_id=p3_1712001396_6QC3G1vyWtP%2Fh3N3&previous_page_section_name=1000&federated_search_id=eadae92e-4723-48ca-ade0-c836d5486746
-- The icons in the footer were taken from Font Awesome - https://fontawesome.com/icons
+- Some styles were inspired by the love running walkthrough project from Code Institute
+- Favicon was taken from - https://www.flaticon.com/
+- All icons were taken from Font Awesome - https://fontawesome.com/icons
+- Form link was taken from code institute - https://formdump.codeinstitute.net/
 
 ### Media
 All media was also taken from the Airbnb page - https://www.airbnb.ie/rooms/1091829813427888523?adults=1&children=0&enable_m3_private_room=true&infants=0&pets=0&check_in=2024-04-02&check_out=2024-04-07&source_impression_id=p3_1712001396_6QC3G1vyWtP%2Fh3N3&previous_page_section_name=1000&federated_search_id=eadae92e-4723-48ca-ade0-c836d5486746&modal=PHOTO_TOUR_SCROLLABLE
