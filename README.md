@@ -73,3 +73,6 @@ The live link can be found here - https://giselled02.github.io/rockfield/
 
 ### Media
 All media was also taken from the Airbnb page - https://www.airbnb.ie/rooms/1091829813427888523?adults=1&children=0&enable_m3_private_room=true&infants=0&pets=0&check_in=2024-04-02&check_out=2024-04-07&source_impression_id=p3_1712001396_6QC3G1vyWtP%2Fh3N3&previous_page_section_name=1000&federated_search_id=eadae92e-4723-48ca-ade0-c836d5486746&modal=PHOTO_TOUR_SCROLLABLE
+
+## Extra info
+Some git commits have incomplete messages and typos. Didn't commit as much as I should have.
